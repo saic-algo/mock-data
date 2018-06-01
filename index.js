@@ -1,3 +1,4 @@
+var fs = require('fs');
 var faker = require('faker');
 var moment = require('moment');
 var _ = require('lodash');
@@ -115,3 +116,7 @@ while (current.isBefore(endDate)) {
 console.log(guests);
 console.log(drivers);
 console.log(deals_log);
+
+fs.writeFile('./data/drivers.json', JSON.stringify(drivers, null, 4));
+fs.writeFile('./data/guests.json', JSON.stringify(guests, null, 4));
+fs.writeFile('./data/deals.json', JSON.stringify(deals_log, null, 4));
