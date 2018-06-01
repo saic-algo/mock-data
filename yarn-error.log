@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Users\tengdu\.nuget\packages\Node.js.with.uv.pipe.name.fixed\8.9.4\node.exe C:\Users\tengdu\.nuget\packages\yarnpkg.yarn.webui\1.6.0\content\bin\yarn.js add facker
+
+PATH: 
+  C:\AdsAppUI\tools\cmdlet;C:\AdsAppUI;C:\AdsAppUI\tools\node;C:\Users\tengdu\.nuget\packages\Node.js.with.uv.pipe.name.fixed\8.9.4;C:\Users\tengdu\.nuget\packages\Yarnpkg.Yarn.WebUI\1.6.0\content\bin;C:\Users\tengdu\.nuget\packages\Selenium.Firefox.WebDriver\0.19.1\driver;C:\Users\tengdu\.nuget\packages\FontForge\2018.4.24.1\contentFiles\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\\MSBuild\15.0\bin;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\Tools\;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft Passport RPS\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Users\tengdu\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;D:\Program Files\PuTTY\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Users\tengdu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Neovim\bin;C:\Users\tengdu\AppData\Local\Programs\Fiddler;C:\Users\tengdu\AppData\Local\Yarn\bin;C:\Users\tengdu\AppData\Roaming\npm;C:\Users\tengdu\AppData\Local\Microsoft\WindowsApps;C:\linuxcommand
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://msasg.pkgs.visualstudio.com/_packaging/BingAdsWebUISharedComponents/npm/registry/facker: NotFound
+      at Request.params.callback [as _callback] (C:\Users\tengdu\.nuget\packages\yarnpkg.yarn.webui\1.6.0\content\lib\cli.js:65327:18)
+      at Request.self.callback (C:\Users\tengdu\.nuget\packages\yarnpkg.yarn.webui\1.6.0\content\lib\cli.js:133155:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Users\tengdu\.nuget\packages\yarnpkg.yarn.webui\1.6.0\content\lib\cli.js:134138:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Users\tengdu\.nuget\packages\yarnpkg.yarn.webui\1.6.0\content\lib\cli.js:134058:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
